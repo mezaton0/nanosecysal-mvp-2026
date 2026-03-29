@@ -1,18 +1,5 @@
 {
   "version": 2,
-  "projects": [
-    {
-      "name": "nanosecysal-mvp-2026-frontend",
-      "rootDirectory": "frontend",
-      "source": "github",
-      "project-id": "your-vercel-project-id",
-      "org-id": "your-vercel-org-id",
-      "environment": {
-        "VITE_SUPABASE_URL": "https://example.com",
-        "VITE_SUPABASE_ANON_KEY": "your-anon-key-placeholder"
-      }
-    }
-  ],
   "builds": [
     {
       "src": "frontend/next.config.js",
